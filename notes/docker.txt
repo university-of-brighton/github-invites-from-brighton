@@ -1,0 +1,12 @@
+My Docker file call:
+
+
+docker run -p 8080:80 -v /Users/jason/Source/python/github-invites-from-brighton:/home/jason/source/github-invites-from-brighton -t -i cx2 /bin/bash
+
+# need to add these to my docker file
+
+pip install PyGithub['integrations']
+pip install requests
+pip install constants
+
+
